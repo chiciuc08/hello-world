@@ -245,7 +245,8 @@ $stmt->execute();
         <input type="hidden" name="idClasa" value="<?php echo $_GET['idClasa']?>"/>
         <input type="hidden" name="anScolar" value="<?php echo $_GET['anScolar']?>"/>
         <input type="hidden" name="idElev" value="<?php echo $id?>"/>
-                
+		    <input type="hidden" name="numeElev" value="<?php echo $nume." ".$prenume?>"/>
+                
             </form></td>
         </tr>
  <?php
@@ -254,7 +255,12 @@ $stmt->execute();
     </div>
         <?php
     }else if(($_GET['varClasa'])!="" && ($_GET['anScolar'])!="" && ($_GET['idElev'])!=""){
-        echo "se executa";
+        echo $_POST['numeElev'];?>
+		      <table class="table table-hover">
+			      <thead><tr>
+				      <th> Toate disciplinele din Clasa <?php echo $_GET['anScolar']?></th>
+				      </tr></thead></table>
+		      <?php
     }
   
               
