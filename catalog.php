@@ -141,6 +141,7 @@ $result = $conn->query($sql);
               <div class="caption">
                   
                 <h1><?php echo $_SESSION['numeUser']?> <?php echo $_SESSION['prenumeUser']?></h1>
+                   <h1>SALUT</h1>
                <?php 
                
 $grupaElevi="%{$_GET['varClasa']}%";
