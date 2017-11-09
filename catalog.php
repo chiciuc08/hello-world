@@ -45,7 +45,7 @@ $result = $conn->query($sql);
     <!-- InstanceEndEditable -->
    <a href="index.php"><div class="header-wrapper" >
       <div class="site-name"><!-- InstanceBeginEditable name="titlu" -->
-        <h1>LICEUL TEORETIC</h1>
+        <h1>LICEUL TEORETIC CHICIUC</h1>
         <h1 style="font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif">&quot;MIHAI EMINESCU&quot;</h1>
         <p style="font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif">s. SLOBOZIA MARE</p>
         <h2>lorem ipsum dolor sit amet vivamus</h2>
